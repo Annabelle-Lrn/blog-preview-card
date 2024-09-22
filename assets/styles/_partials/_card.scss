@@ -1,0 +1,53 @@
+.card{
+  display: flex;
+  flex-direction: column;
+  background: $white;
+  max-width: 17.5rem;
+  min-height: 25rem;
+  border-radius: 1rem;
+  border: solid 1px black;
+  box-shadow: 8px 7px 1px 1px black;
+  padding: 0.8rem;
+
+  .card-Image{
+    background: url("/assets/images/illustration-article.svg") center/cover;
+    width: 100%;
+    min-height: 10rem;
+    border-radius: 0.9rem;
+  } 
+
+  .card-Category{
+    margin: 1rem 0;
+    font-size: 0.9rem;
+    max-width: 3.5rem;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding: 0.4rem 0.4rem;
+    background: $yellow;
+  }
+  .card-date{
+    color: $gray950;
+    font-size: 0.8rem;
+    font-weight: 700;
+    font-family: $figtreesemi;
+  }
+  .card-Title{
+    margin: 1rem 0;
+    font-size: 1rem;
+    &:hover{
+      color:$yellow;
+      cursor: pointer;
+    }
+  }
+  .card-Author{
+    display: flex;
+    margin: 1rem 0;
+    img{
+      max-width: 5vh;
+      margin-right: 0.9rem;
+    }
+    h4{
+      font-size: 0.9rem;
+    }
+  }
+}

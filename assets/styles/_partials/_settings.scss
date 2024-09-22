@@ -1,0 +1,53 @@
+$yellow :hsl(47, 88%, 63%);
+$white:hsl(0, 0%, 100%);
+$gray500:hsl(0, 0%, 42%);
+$gray950:hsl(0, 0%, 7%);
+$figtree: "figtree";
+$figtreeBold:"figtreeextra";
+$figtreesemi :"figtreesemi";
+
+@font-face {
+  font-family: "figtree";
+  src: url("https://fonts.google.com/specimen/Figtree");
+  font-display: swap;
+}
+@font-face {
+  font-family: "figtreeextra";
+  src: url("./assets/fonts/static/Figtree-ExtraBold.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "figtrsemi";
+  src: url("./assets/fonts/static/Figtree-SemiBold.ttf");
+  font-display: swap;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: $figtree;
+  color: $gray950;
+
+}
+
+body{
+  background:$yellow;
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6.5rem;
+    margin-bottom: 1rem;
+  }
+  p{
+    font-size: 1rem;
+    color: $gray500;
+    text-align: left;
+  }
+  h1,h2,h4{
+    font-family: $figtreeBold;
+  }
+}
+
+

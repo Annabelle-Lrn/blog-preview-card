@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "figtree";
+  src: url("https://fonts.google.com/specimen/Figtree");
+  font-display: swap;
+}
+@font-face {
+  font-family: "figtreeextra";
+  src: url("./assets/fonts/static/Figtree-ExtraBold.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "figtrsemi";
+  src: url("./assets/fonts/static/Figtree-SemiBold.ttf");
+  font-display: swap;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "figtree";
+  color: hsl(0, 0%, 7%);
+}
+
+body {
+  background: hsl(47, 88%, 63%);
+}
+body main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 6.5rem;
+  margin-bottom: 1rem;
+}
+body p {
+  font-size: 1rem;
+  color: hsl(0, 0%, 42%);
+  text-align: left;
+}
+body h1, body h2, body h4 {
+  font-family: "figtreeextra";
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: hsl(0, 0%, 100%);
+  max-width: 17.5rem;
+  min-height: 25rem;
+  border-radius: 1rem;
+  border: solid 1px black;
+  box-shadow: 8px 7px 1px 1px black;
+  padding: 0.8rem;
+}
+.card .card-Image {
+  background: url("/assets/images/illustration-article.svg") center/cover;
+  width: 100%;
+  min-height: 10rem;
+  border-radius: 0.9rem;
+}
+.card .card-Category {
+  margin: 1rem 0;
+  font-size: 0.9rem;
+  max-width: 3.5rem;
+  border-radius: 5px;
+  font-weight: bolder;
+  padding: 0.4rem 0.4rem;
+  background: hsl(47, 88%, 63%);
+}
+.card .card-date {
+  color: hsl(0, 0%, 7%);
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-family: "figtreesemi";
+}
+.card .card-Title {
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+.card .card-Title:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+.card .card-Author {
+  display: flex;
+  margin: 1rem 0;
+}
+.card .card-Author img {
+  max-width: 5vh;
+  margin-right: 0.9rem;
+}
+.card .card-Author h4 {
+  font-size: 0.9rem;
+}/*# sourceMappingURL=index.css.map */
