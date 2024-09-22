@@ -52,7 +52,6 @@ body h1, body h2, body h4 {
   padding: 0.8rem;
 }
 .card .card-Image {
-  background: url("/assets/images/illustrationarticle.webp") center/cover;
   width: 100%;
   min-height: 10rem;
   border-radius: 0.9rem;
@@ -90,4 +89,4 @@ body h1, body h2, body h4 {
 }
 .card .card-Author h4 {
   font-size: 0.9rem;
-}/*# sourceMappingURL=index.css.map. */
+}/*# sourceMappingURL=index.css.map */
